@@ -1,0 +1,18 @@
+mean = average
+
+add all the numbers
+23 + 29 + 20 + 32 +23 + 21 + 33 + 25
+then divide by 8 or total numbers added
+= 25.75
+
+median is a way to find the central tendency(average)
+pick out the middle number
+order numbers from least to greatest
+
+20 21 23 23 25 29 32 33
+middle numbers are 23 & 25
+
+add 26 + 25 = 48/2 = 24
+
+mode: the number that shows up the most
+mode = 23
