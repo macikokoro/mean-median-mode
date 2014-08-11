@@ -16,3 +16,5 @@ add 26 + 25 = 48/2 = 24
 
 mode: the number that shows up the most
 mode = 23
+if more than one number occurs we have two modes.
+a data set can have multiple modes.
