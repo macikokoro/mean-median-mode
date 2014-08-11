@@ -36,7 +36,7 @@ findMedian();
 //Mode ===================================
 var result = [];
 //loop through array
-for (var i = 0; i < numArray.length; i++) {
+for ( i = 0; i < numArray.length; i++) {
     //compare results
     if (numArray[i + 1] === numArray[i]) {
         //push duplicates
@@ -44,24 +44,4 @@ for (var i = 0; i < numArray.length; i++) {
     }
 }
 
-//made possible by http://dreaminginjavascript.wordpress.com/
-function eliminateDuplicates(arr) {
-    var i,
-    len = arr.length,
-        out = [],
-        obj = {};
-
-    for (i = 0; i < len; i++) {
-        obj[arr[i]] = 0;
-    }
-    for (i in obj) {
-        out.push(i);
-    }
-    return out;
-}
-
-var b = [];
-
-b = eliminateDuplicates(result);
-
-console.log("**** The mode is: " + b);
+console.log("**** The mode is: " + result);
