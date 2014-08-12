@@ -1,8 +1,7 @@
-
 //Put it all together
 
 //Mean=============================
-var numArray = [2, 4, 5, 6, 8, 10, 11];
+var numArray = [2, 4, 5, 6, 8, 10, 11, 10, 11];
 console.log("The array is: " + numArray);
 var mean = 0;
 
@@ -40,21 +39,18 @@ var result = [];
 for (var i = 0; i < numArray.length; i++) {
     //compare results
     if (numArray[i + 1] === numArray[i]) {
-       //push duplicates
+        //push duplicates
         result.push(numArray[i]);
     }
 }
-//log the contents of the array
-console.log(numArray);
-
-var unique = result.filter(function(elem, index, self) {
-  return index == self.indexOf(elem);
+//function to eliminate duplicates
+var unique = result.filter(function (elem, index, self) {
+    return index == self.indexOf(elem);
 });
 
-if(result.length < 1) {
-  console.log("no mode!");
+if (result.length < 1) {
+    console.log("no mode!");
 } else {
-  //log the repeating numbers in array
-  console.log("these numbers repeat: " + result);
-  console.log("mode: " + unique);
+    //log the repeating numbers in array
+    console.log("mode: " + unique);
 }
