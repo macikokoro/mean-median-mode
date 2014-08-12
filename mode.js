@@ -17,7 +17,7 @@ for (var i = 0; i < numArray.length; i++) {
 console.log(numArray);
 //log the repeating numbers in array
 console.log("these numbers repeat: " + result);
-
+//eliminate duplicates
 var unique = result.filter(function(elem, index, self) {
   return index == self.indexOf(elem);
 });
