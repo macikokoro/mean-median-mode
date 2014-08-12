@@ -22,8 +22,5 @@ var unique = result.filter(function(elem, index, self) {
   return index == self.indexOf(elem);
 });
 
-
-
-b=eliminateDuplicates(result);
 console.log(result);
 console.log("mode: " + unique);
