@@ -17,26 +17,10 @@ for (var i = 0; i < numArray.length; i++) {
 console.log(numArray);
 //log the repeating numbers in array
 console.log("these numbers repeat: " + result);
-//made possible by http://dreaminginjavascript.wordpress.com/
-function eliminateDuplicates(arr) {
-  var i,
-      len=arr.length,
-      out=[],
-      obj={};
+//eliminate duplicates
+var unique = result.filter(function(elem, index, self) {
+  return index == self.indexOf(elem);
+});
 
-  for (i=0;i<len;i++) {
-    obj[arr[i]]=0;
-  }
-  for (i in obj) {
-    out.push(i);
-  }
-  return out;
-}
-
-
-var b=[];
-
-
-b=eliminateDuplicates(result);
 console.log(result);
-console.log("array without duplicates " + b);
+console.log("mode: " + unique);
