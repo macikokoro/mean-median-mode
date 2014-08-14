@@ -1,7 +1,7 @@
 //Put it all together
 
 //Mean=============================
-var numArray = [2, 4, 5, 6, 8, 10, 11];
+var numArray = [2, 4, 5, 6, 8, 10, 11, 10, 11];
 console.log("The array is: " + numArray);
 var mean = 0;
 
@@ -52,5 +52,5 @@ if (result.length < 1) {
     console.log("no mode!");
 } else {
     //log the repeating numbers in array
-    console.log("*** The mode: " + unique);
+    console.log("mode: " + unique);
 }

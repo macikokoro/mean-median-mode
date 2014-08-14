@@ -1,0 +1,25 @@
+{
+  "name": "mean-median-mode",
+  "version": "0.0.2",
+  "description": "Node program that checks for mean median and mode",
+  "main": "meeny-miny-mo.js",
+  "scripts": {
+    "test": "node filename.js 1 2 3 4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/macikokoro/mean-median-mode.git"
+  },
+  "keywords": [
+    "mean",
+    "median",
+    "mode",
+    "node"
+  ],
+  "author": "JQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/macikokoro/mean-median-mode/issues"
+  },
+  "homepage": "https://github.com/macikokoro/mean-median-mode"
+}
